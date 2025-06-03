@@ -1,9 +1,15 @@
-# Ignore everything
-/*
+# Ignore compiled files
+*.class
+out/
+target/
+build/
 
-# Except for these files
-!.gitignore
-!README.md
-!/src/
-/src/**
-!/src/main/java/com/example/hello/Main.java
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
