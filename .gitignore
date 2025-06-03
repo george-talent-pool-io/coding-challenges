@@ -1,0 +1,9 @@
+# Ignore everything
+/*
+
+# Except for these files
+!.gitignore
+!README.md
+!/src/
+/src/**
+!/src/main/java/com/example/hello/Main.java
